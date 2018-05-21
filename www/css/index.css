@@ -50,7 +50,7 @@ body {
     background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
     position:absolute;             /* position in the center of the screen */
     left:50%;
-    top:28%;
+    top:50%;
     height:50px;                   /* text area height */
     width:225px;                   /* text area width */
     text-align:center;
@@ -64,7 +64,7 @@ body {
     .app {
         background-position:left;
         padding:25px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
-        margin:-40px 0px 0px -198px;  /* offset vertical: half of image height */
+        margin:-40px 0px 0px -190px;  /* offset vertical: half of image height */
                                       /* offset horizontal: half of image width and text area width */
     }
 }
