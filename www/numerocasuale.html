@@ -21,10 +21,11 @@
 			<script>
 				function Numero()
 					{
-						var Min = document.azienda.Numero1.value;
-						var Max = document.azienda.Numero2.value;
-						var x = document.getElementById("demo")
-						x.innerHTML = "Lo sconto per te è di €: " + Math.floor(Math.random() * (Max - Min)+ 1);
+						var Min = document.azienda.Numero1.value * 1;
+						var Max = document.azienda.Numero2.value * 1;
+						var x = document.getElementById("demo");
+						var r =  Math.floor(Math.random() * (Max - Min + 1) + Min);
+						x.innerHTML = "Lo sconto per te è di €: " + r;
 	                }
 			</script>
 	</head>
